@@ -14,7 +14,7 @@ describe('sigh-karma', () => {
   afterEach(() => { procPool.destroy() })
 
   it('should run jasmine tests on a single event then pass value down stream', function() {
-    this.timeout(7000)
+    this.timeout(9000)
 
     var stream = Bacon.constant([])
     return karma({ stream, procPool }).toPromise(Promise).then(events => {
