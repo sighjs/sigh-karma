@@ -1,5 +1,7 @@
 # sigh-mocha
 
+[![build status](https://circleci.com/gh/sighjs/sigh-karma.png)](https://circleci.com/gh/sighjs/sigh-karma)
+
 Runs karma with the provided options each time the plugin receives a value. If the tests are already running then the process is killed and the tests are run in a new process. The plugin maintains a cache of at least two processes with the karma state set up ready to run a test to ensure minimal latency.
 
 ## Example
