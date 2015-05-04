@@ -1,4 +1,4 @@
-# sigh-mocha
+# sigh-karma
 
 [![build status](https://circleci.com/gh/sighjs/sigh-karma.png)](https://circleci.com/gh/sighjs/sigh-karma)
 
