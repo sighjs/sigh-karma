@@ -6,13 +6,12 @@ export default function(op, opts = {}) {
     var Promise = require('bluebird')
     var _ = require('lodash')
     var path = require('path')
+    var log = require('sigh-core').log
 
     _.assign(opts, { action: 'run', singleRun: true, autoWatch: true })
     _.defaults(opts, { configFile: path.resolve('karma.conf.js') })
 
     return () => {
-      var log = require('sigh-core').log
-
       log('karma: run tests in process %s', process.pid)
       return new Promise(resolve => {
         server.start(opts, exitCode => {
