@@ -1,6 +1,6 @@
 {
   "name": "sigh-karma",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Sigh plugin for running karma in a subprocess",
   "scripts": {
     "test": "sigh"
@@ -28,7 +28,6 @@
     "sigh-core": "^0.11.0"
   },
   "peerDependencies": {
-    "sigh": ">=0.12.0",
     "karma": "0"
   },
   "devDependencies": {

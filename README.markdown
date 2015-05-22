@@ -6,7 +6,7 @@ Runs karma with the provided options each time the plugin receives a value. If t
 
 ## Example
 
-`npm install --save karma` then add this to your `sigh.js`:
+`npm install --save-dev karma` then add this to your `sigh.js`:
 ```javascript
 var karma, glob, babel, write
 
